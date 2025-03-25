@@ -1,7 +1,7 @@
 /* Reuse and repeat. A programmer's
 life should be simple with variables */
 
-html {
+:root {
     scroll-behavior: smooth;
     --color-primary: #d73953;
     --color-black: #090909;
