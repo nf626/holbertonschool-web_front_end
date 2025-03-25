@@ -81,6 +81,12 @@ a {
 }
 
 
+
+a:link {
+    color: #161616;
+    text-decoration: none;
+}
+
 a:visited {
     font-style: italic;
 }
