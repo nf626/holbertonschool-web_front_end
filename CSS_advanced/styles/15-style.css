@@ -4,12 +4,8 @@
 /*# sourceMappingURL=normalize.min.css.map */
 
 /* box-sizing */
-::before {
-    box-sizing: border-box;
-}
-
-::after {
-    box-sizing: border-box;
+* {
+    box-sizing: content-box;
 }
 
 html {
