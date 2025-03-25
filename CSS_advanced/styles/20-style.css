@@ -9,7 +9,7 @@
 }
 
 /* creates a new row after each instance of the class row */
-*.row {
+row::after {
     content: none;
     display: table;
     float: none;
