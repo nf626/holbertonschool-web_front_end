@@ -4,21 +4,8 @@
 /*# sourceMappingURL=normalize.min.css.map */
 
 /* box-sizing */
-.box {
-    box-sizing: content-box;
-}
-
-/* box-sizing value for layout */
-.box {
+* {
     box-sizing: border-box;
-}
-
-/* box dimension value for layout */
-.box-dimensions {
-    width: 100px;
-    height: 50px;
-    padding-top: 30px;
-    margin: 5px;
 }
 
 html {
