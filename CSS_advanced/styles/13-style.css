@@ -80,18 +80,19 @@ a {
     font-weight: var(--font-weight-bold);
 }
 
+
 a:visited {
     
 }
 
 a:link {
-    font: italic;
+    font-style: italic;
 }
 
 a:hover {
-    text-decoration-line: underline;
+    text-decoration: underline;
 }
 
 a:active {
-    color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
