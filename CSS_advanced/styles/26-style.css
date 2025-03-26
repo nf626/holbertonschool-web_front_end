@@ -280,7 +280,7 @@ a:active {
 }
 
 .card-testimonial .card-avatar {
-    border-radius: 0.5;
+    radius: 0.5;
     width: 10rem;
     height: 10rem;
 }
