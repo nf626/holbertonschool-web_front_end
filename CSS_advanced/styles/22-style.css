@@ -67,7 +67,7 @@ html {
     --section-tagline-margin: 0;
 }
 
-[data-section-theme|=“dark”] {
+html[data-section-theme=“dark”] {
     --text-color: color-white;
     --section-title-color: color-white;
     background-color: var(--color-black);
