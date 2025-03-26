@@ -130,10 +130,10 @@ html {
 }
 
 .nav .nav-link::before {
-    content: none;
+    content: 0;
     position: absolute;
     vertical-align: 0;
-    text-align: 0;
+    text-align: 0 0 0 0;
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
@@ -144,7 +144,7 @@ html {
     padding: 0.5rem 1rem;
 }
 
-.nav .nav-item .nav-link {
+.nav .nav-item .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
