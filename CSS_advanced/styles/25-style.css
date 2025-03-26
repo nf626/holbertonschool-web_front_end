@@ -68,7 +68,7 @@ html {
 
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
-    --button-border: 0.2rem solid var(--color-primary);
+    --button-border: 0.2rem;
     --button-border: solid;
     --button-border: var(--color-primary);
     --button-color: var(--color-black);
