@@ -19,7 +19,7 @@
 }
 
 .button:hover {
-    transition: var(--transition-duration);
+    transition-duration: var(--transition-duration);
     transition-property: color, background-color;
 }
 
