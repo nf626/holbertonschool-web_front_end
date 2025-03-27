@@ -372,13 +372,13 @@ a:active {
     position: relative;
 }
 
-.card-work .card-title {
+.card-work .card-title a {
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
 
-.card-work::before .card-title::before {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
