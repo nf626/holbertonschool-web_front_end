@@ -360,7 +360,7 @@ a:active {
     z-index: 1;
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -372,7 +372,7 @@ a:active {
     position: relative;
 }
 
-.card-work .card-title a {
+.card-work .card-title a:link {
     display: block;
     text-decoration: none;
     padding-top: 45%;
